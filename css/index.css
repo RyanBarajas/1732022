@@ -1,0 +1,105 @@
+
+
+p {
+  font-size: small;
+  font-family: 'Press Start 2P', cursive;
+  color: rgb(64, 71, 109)
+}
+
+nav {
+  height: 50px;
+  background-color: rgb(224, 203, 168);
+}
+
+/* target the class of inline-block below */
+.inline-block{
+
+  display: inline-block;
+  position: center;
+  padding-right: 5px;
+  padding-left: 5px;
+
+}
+
+.block_element{
+
+border: 5px;
+border-style: ridge;
+text-align: left;
+
+}
+
+/* target the class of .left below */
+.leftside{
+
+  height: 500px;
+  float: left;
+  background-color: rgb(255, 101, 66);
+  width: 29%;
+  text-align: center;
+
+}
+/* target the class of .right below */
+
+.topimage{
+
+  height: 500px;
+  float: left;
+  background-color: rgb(255, 101, 66);
+  width: 30%;
+  text-align: center;
+
+}
+
+.rightside{
+
+  height: 1000px;
+  float: right;
+  background-color: rgb(81, 214, 255);
+  width: 70%;
+
+}
+
+.card{
+
+  display: inline-block;
+  background-color:rgb(255, 101, 66);
+  border-radius: 20px;
+  height: 300px;
+  width: 250px;
+  margin: 35px;
+  margin-top: 50px;
+  text-align: center;
+
+
+}
+
+.bottomsection{
+
+  height: 500px;
+  float: left;
+  background-color: rgb(81, 214, 255);
+  width: 100%;
+  text-align: center;
+
+
+}
+
+.toptextsection{
+
+  float: left;
+  padding-right: 15px;
+
+}
+
+img {
+
+  max-width: 100%;
+  height: auto;
+}
+
+.floatimage{
+
+  float: left;
+
+}
